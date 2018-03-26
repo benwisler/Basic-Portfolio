@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+    <script type="text/javascript">
+    var ans = confirm("Do you eat steak?");
+
+    if (ans)
+    {
+        document.write("Here's a steak sandwich");
+    }
+    else 
+    { 
+        document.write("Here's a tofu stir-fry!");
+    }
+    
+    var birthYear = prompt("what is your birth year?");
+    if (birthYear > 1997)
+    {
+        document.write("  No sake for you!");
+    }
+    else if (birthYear < 1997)
+    {
+        document.write("  Here's some sake!");
+    }
+    else
+    {
+        var month = prompt("What month were you born?");
+    }
+    if (month === "January")
+    {
+        document.write("You're 21! Here's your sake!");
+    }
+    else if(month === "February")
+    {
+        document.write(" You're 21! Here's your sake!");
+    }
+    else
+    {
+        document.write(" You're not 21 quite yet.");
+    }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
