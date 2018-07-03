@@ -178,6 +178,7 @@ p {
     border-bottom: 3px solid #d0d0d0;
     width: 585px;
     margin: auto;
+    float: bottom;
 
 }
 .borderbottom {
